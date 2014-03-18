@@ -26,7 +26,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 	
 	public void testPreconditions() {
 		String actualDefaultString = (String) mDefaultString.getText();
-		assertEquals(actualDefaultString, "");
+		assertEquals(actualDefaultString, "1");
 	}
 
 }
